@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">Smart Health Monitor</string>
+
+    <string name="prompt_email">" Email"</string>
+    <string name="prompt_password">" Password"</string>
+    <string name="prompt_Rpassword">" Retype password"</string>
+    <string name="prompt_fullname">" Full name"</string>
+    <string name="prompt_username">" Username"</string>
+    <string name="prompt_feet">" feet"</string>
+    <string name="prompt_inches">" inches"</string>
+    <string name="prompt_weight">" kg"</string>
+    <string name="prompt_day">" years"</string>
+    <string name="prompt_mon">" MM"</string>
+    <string name="prompt_year">" YYYY"</string>
+
+    <string name="prompt_hh">" HH"</string>
+    <string name="prompt_mm">" MM"</string>
+    <string name="prompt_medName">" Medicine name"</string>
+
+    <string name="prompt_tp">" Systolic"</string>
+    <string name="prompt_btm">" Diastolic"</string>
+    <string name="prompt_mg">" mmol/l"</string>
+    <string name="prompt_bt">" beats/m"</string>
+    <string name="prompt_wgt">" Weight"</string>
+    <string name="prompt_hgt">" Height"</string>
+
+    <string name="prompt_tpb">" সিস্টোলিক"</string>
+    <string name="prompt_btmb">" ডায়াস্টোলিক"</string>
+    <string name="prompt_mgb">" মিলিমোল/লি."</string>
+    <string name="prompt_btb">" স্পন্দন/মি."</string>
+    <string name="prompt_emailb">" ই-মেইল"</string>
+    <string name="prompt_passwordb">" পাসওয়ার্ড"</string>
+    <string name="prompt_Rpasswordb">" পাসওয়ার্ড পুনরায় লিখুন"</string>
+    <string name="prompt_fullnameb">" সম্পূর্ণ নাম"</string>
+    <string name="prompt_usernameb">" ইউজার নাম"</string>
+    <string name="prompt_feetb">" ফুট"</string>
+    <string name="prompt_inchesb">" ইঞ্চি"</string>
+    <string name="prompt_weightb">" কেজি"</string>
+    <string name="prompt_dayb">" দিন"</string>
+    <string name="prompt_monb">" মাস"</string>
+    <string name="prompt_yearb">" বছর"</string>
+
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="Login">Login</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+    <string name="ChangeLangB">Change language to English</string>
+    <string name="forgetpass">forgot password?</string>
+    <string name="noaccount">Don\'t have an account?</string>
+    <string name="signup">Sign up here</string>
+    <string name="update">Update data</string>
+    <string name="logout">Log out</string>
+    <string name="bp">Blood Pressure</string>
+    <string name="sys">Systolic</string>
+    <string name="dia">Diastolic</string>
+    <string name="max">Maximum</string>
+    <string name="min">Minimum</string>
+    <string name="avg">Average</string>
+    <string name="bs">Blood Sugar</string>
+    <string name="bss">Sugar</string>
+    <string name="pls">Pulse</string>
+    <string name="bmi">Body Mass Index (BMI)</string>
+    <string name="allg">All Graphs</string>
+    <string name="bmis">BMI</string>
+    <string name="createAccount">Create account</string>
+    <string name="fewMore">Few more info</string>
+    <string name="age">Age:</string>
+    <string name="height">Height:</string>
+    <string name="weight">Weight:</string>
+    <string name="updateT">Your Data Entry...</string>
+    <string name="stsAndsugg">Status and Suggestions</string>
+    <string name="stsAndsuggPl">Status</string>
+    <string name="passChange">Change your password</string>
+
+
+    <string name="LoginB">লগ ইন</string>
+    <string name="ChangeLangE">ভাষা বাংলায় পরিবর্তন করুন</string>
+    <string name="forgetpassB">পাসওয়ার্ড ভুলে গেছেন?</string>
+    <string name="noaccountB">অ্যাকাউন্ট নেই?</string>
+    <string name="signupB">নিবন্ধন করুন</string>
+    <string name="updateB">তথ্য আপডেট করুন</string>
+    <string name="logoutB">লগ আউট</string>
+    <string name="bpB">রক্তচাপ </string>
+    <string name="sysB">সিস্টোলিক</string>
+    <string name="diaB">ডায়াস্টোলিক</string>
+    <string name="maxB">সর্বোচ্চ</string>
+    <string name="minB">সর্বোনিম্ন</string>
+    <string name="avgB">গড়</string>
+    <string name="bsB">ব্লাড সুগার</string>
+    <string name="bssB">সুগার</string>
+    <string name="plsB">নাড়ির স্পন্দন</string>
+    <string name="bmiB">বডি মাস ইনডেক্স (BMI)</string>
+    <string name="allgB">সকল গ্রাফ</string>
+    <string name="bmisb">বিএমআই</string>
+    <string name="createAccountB">অ্যাকাউন্ট তৈরি করুন</string>
+    <string name="fewMoreB">আরো কয়েকটি তথ্য</string>
+    <string name="ageB">বয়সঃ</string>
+    <string name="heightB">উচ্চতাঃ</string>
+    <string name="weightB">ওজনঃ</string>
+    <string name="updateTb">আপনার তথ্য লিখুন...</string>
+    <string name="stsAndsuggbn">অবস্থা এবং পরামর্শ</string>
+    <string name="stsAndsuggPlbn">অবস্থা</string>
+    <string name="passChangebn">আপনার পাসওয়ার্ড পরিবরতন</string>
+
+
+</resources>
