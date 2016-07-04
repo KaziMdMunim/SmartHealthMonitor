@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/back"
+    tools:context=".SignUp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:src="@drawable/text"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <!--<ImageView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@drawable/prev"-->
+        <!--android:id="@+id/pr"-->
+        <!--android:clickable="true"-->
+        <!--android:onClick="goPrv"-->
+        <!--android:layout_below="@+id/name"-->
+        <!--android:layout_marginTop="60dp"/>-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create account"
+        android:textColor="#b9ced5"
+        android:id="@+id/ar"
+        android:layout_below="@+id/name"
+        android:textSize="20dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginLeft="10dp"
+        />
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ar"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ar"
+            android:orientation="vertical">
+
+    <AutoCompleteTextView
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:hint="@string/prompt_fullname"
+        android:inputType="textPersonName"
+        android:ems="12"
+        android:maxLines="1"
+        android:textSize="15dp"
+        android:singleLine="true"
+        android:id="@+id/fname"
+        android:textColor="#122040"
+        android:layout_below="@+id/name"
+        android:layout_gravity="center"
+        android:background="@drawable/textback"
+        android:layout_marginTop="50dp"/>
+
+    <AutoCompleteTextView
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:hint="@string/prompt_username"
+        android:inputType="textPersonName"
+        android:ems="12"
+        android:maxLines="1"
+        android:textSize="15dp"
+        android:singleLine="true"
+        android:id="@+id/user"
+        android:textColor="#122040"
+        android:layout_below="@+id/fname"
+        android:layout_gravity="center"
+        android:background="@drawable/textback"
+        android:layout_marginTop="20dp"/>
+
+    <AutoCompleteTextView
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:hint="@string/prompt_email"
+        android:inputType="textEmailAddress"
+        android:ems="12"
+        android:maxLines="1"
+        android:textSize="15dp"
+        android:singleLine="true"
+        android:id="@+id/email"
+        android:textColor="#122040"
+        android:layout_below="@+id/user"
+        android:layout_gravity="center"
+        android:background="@drawable/textback"
+        android:layout_marginTop="20dp"/>
+
+    <AutoCompleteTextView
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:hint="@string/prompt_password"
+        android:inputType="textWebPassword"
+        android:ems="12"
+        android:maxLines="1"
+        android:textSize="15dp"
+        android:singleLine="true"
+        android:id="@+id/pass"
+        android:textColor="#122040"
+        android:layout_below="@+id/email"
+        android:layout_gravity="center"
+        android:background="@drawable/textback"
+        android:layout_marginTop="20dp"/>
+
+    <AutoCompleteTextView
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:hint="@string/prompt_Rpassword"
+        android:inputType="textWebPassword"
+        android:ems="12"
+        android:maxLines="1"
+        android:textSize="15dp"
+        android:singleLine="true"
+        android:id="@+id/rpass"
+        android:textColor="#122040"
+        android:layout_below="@+id/pass"
+        android:layout_gravity="center"
+        android:background="@drawable/textback"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/save"
+        android:clickable="true"
+        android:onClick="takeHW"
+        android:layout_below="@id/rpass"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
