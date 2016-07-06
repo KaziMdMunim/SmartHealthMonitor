@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kazimdmunim.smarthealthmonitor">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AfterLogin" />
+        <activity android:name=".ForgetPass" />
+        <activity android:name=".SignUp" />
+        <activity android:name=".MainActivityB" />
+        <activity android:name=".ForgetPassB" />
+        <activity android:name=".SignUpB" />
+        <activity android:name=".AfterLoginB" />
+        <activity android:name=".TakeHW" />
+        <activity android:name=".TakeHWB" />
+        <activity android:name=".UpdateRec" />
+        <activity android:name=".setAlarm" />
+        <activity android:name=".graphBP" />
+        <activity android:name=".graphSG" />
+        <activity android:name=".graphPL" />
+        <activity android:name=".graphBM" />
+        <activity android:name=".graphALL" />
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".suggBM" />
+        <activity android:name=".web" />
+        <activity android:name=".Faq"></activity>
+    </application>
+
+</manifest>
