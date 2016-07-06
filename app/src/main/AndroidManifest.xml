@@ -33,7 +33,7 @@
         <activity android:name=".graphPL" />
         <activity android:name=".graphBM" />
         <activity android:name=".graphALL" />
-        <activity android:name=".Splash">
+        <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
